@@ -1,5 +1,3 @@
-
-
 def bubble_sort(array)
   n = array.length - 1
 
@@ -14,6 +12,10 @@ def bubble_sort(array)
     end
     break unless if_swap
   end
+end
+
+def bubble_sort_by(a, b)
+
 end
 
 arr = [4,3,78,2,0,2]
