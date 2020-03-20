@@ -21,9 +21,7 @@ def bubble_sort_by(array)
       end
     end
   end
-  print array
+  array
 end
 
-bubble_sort_by %w[hey hi hello] do |x, y|
-  x.length <=> y.length
-end
+print bubble_sort_by(%w[hey hi hello]) { |x, y| x.length - y.length }
