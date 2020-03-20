@@ -1,22 +1,18 @@
 def bubble_sort(array)
   n = array.length - 1
 
-  loop do
-    if_swap = true
+  n.times do
     0.upto(n) do |x|
-      if_swap = false
-      if array[x] > array[x + 1]
-        array[x], array[x + 1] = array[x + 1], array[x]
-        if_swap = true
+      a = array[x]
+      b = array[x + 1]
+      if b.nil? == false && b < a
+        array[x] = b
+        array[x + 1] = a
       end
     end
-    break unless if_swap
   end
+  array
 end
 
-def bubble_sort_by(a, b)
-
-end
-
-arr = [4,3,78,2,0,2]
+arr = [4, 3, 78, 2, 0, 2]
 print bubble_sort(arr)
