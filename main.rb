@@ -9,9 +9,8 @@ def bubble_sort(array)
   array
 end
 
-arr = [4, 3, 78, 2, 0, 2]
-puts bubble_sort(arr)
-git
+puts bubble_sort([4, 3, 78, 2, 0, 2])
+
 def bubble_sort_by(array)
   n = array.length - 1
   n.times do
@@ -22,7 +21,7 @@ def bubble_sort_by(array)
   print array
 end
 
-bubble_sort_by ["hi", "hey", "hello"] do |x, y|
+bubble_sort_by %w[hi hey hello] do |x, y|
   x.length <=> y.length
 end
 
