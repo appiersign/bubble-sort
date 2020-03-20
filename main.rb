@@ -5,11 +5,14 @@ def bubble_sort(array)
     0.upto(n) do |x|
       a = array[x]
       b = array[x + 1]
-      array[x] = b, array[x + 1] = a if b.nil? == false && b < a
+      if b.nil? == false && b < a
+        array[x] = b
+        array[x + 1] = a
+      end
     end
   end
   array
 end
 
 arr = [4, 3, 78, 2, 0, 2]
-print bubblegit_sort(arr)
+print bubble_sort(arr)
