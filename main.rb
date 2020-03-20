@@ -3,20 +3,15 @@ def bubble_sort(array)
 
   n.times do
     0.upto(n) do |x|
-      a = array[x]
-      b = array[x + 1]
-      if b.nil? == false && b < a
-        array[x] = b
-        array[x + 1] = a
-      end
+      array[x], array[x + 1] = array[x + 1], array[x] if array[x] > array[x + 1]
     end
   end
   array
 end
 
-# arr = [4, 3, 78, 2, 0, 2]
-# print bubble_sort(arr)
-
+arr = [4, 3, 78, 2, 0, 2]
+puts bubble_sort(arr)
+git
 def bubble_sort_by(array)
   n = array.length - 1
   n.times do
@@ -27,11 +22,7 @@ def bubble_sort_by(array)
   print array
 end
 
-bubble_sort_by [2, 1, 4, 3] do |x, y|
-  x <=> y
+bubble_sort_by ["hi", "hey", "hello"] do |x, y|
+  x.length <=> y.length
 end
 
-# string_array = ["hi", "hey", "hello"]
-# yield_block = string_array.each do |a, b| a <=> b end
-#
-# bubble_sort_by(&yield_block)
