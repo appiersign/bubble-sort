@@ -21,11 +21,11 @@ If you are going t test this out locally you will need to have Ruby installed.
 - Twitter: [@twitterhandle](https://twitter.com/aulbytj)
 - Linkedin: [linkedin](https://linkedin.com/in/aulbourn-knowles-b9971672)
 
-👤 **Author2**
+👤 **Solomon Appier-Sign**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/appiersign)
+- Twitter: [@twitterhandle](https://twitter.com/appiersign)
+- Linkedin: [linkedin](https://www.linkedin.com/in/solomon-appier-sign)
 
 ## 🤝 Contributing
 
