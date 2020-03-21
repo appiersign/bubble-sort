@@ -16,7 +16,7 @@ def bubble_sort_by(array)
   n = array.length - 1
   n.times do
     0.upto(n) do |x|
-      if array[x + 1].nil? == false && yield(array[x], array[x + 1]) == 1
+      if array[x + 1].nil? == false && yield(array[x], array[x + 1]).positive?
         array[x], array[x + 1] = array[x + 1], array[x]
       end
     end
